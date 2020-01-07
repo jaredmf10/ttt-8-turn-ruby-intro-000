@@ -40,10 +40,9 @@ puts "Please enter 1-9:"
 # gets user input
 choice = gets.strip
 # convert input to integer
-input_to_index(choice)
+selection = (input_to_index(choice))
 # check to make sure the selection is valid
-if valid_move?(board, index) == true
-
-
-# end
+  if valid_move?(board, selection) == true
+  move(board, selection,)
+  end
 end
