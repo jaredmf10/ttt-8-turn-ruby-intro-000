@@ -42,7 +42,7 @@ choice = gets.strip
 # convert input to integer
 input_to_index(choice)
 # check to make sure the selection is valid
-if valid_move?(board, index) == true 
+if valid_move?(board, index) == true
 
 
 # end
