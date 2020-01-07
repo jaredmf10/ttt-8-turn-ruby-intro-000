@@ -44,6 +44,7 @@ selection = (input_to_index(choice))
 # check to make sure the selection is valid
   if valid_move?(board, selection) == true
   move(board, selection)
+  display_board(board)
 else
   turn(board)
   end
