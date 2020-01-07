@@ -44,5 +44,7 @@ selection = (input_to_index(choice))
 # check to make sure the selection is valid
   if valid_move?(board, selection) == true
   move(board, selection)
+else
+  puts "Please enter 1-9:"
   end
 end
