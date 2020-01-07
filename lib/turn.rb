@@ -45,6 +45,6 @@ selection = (input_to_index(choice))
   if valid_move?(board, selection) == true
   move(board, selection)
 else
-  puts "Please enter 1-9:"
+  turn(board)
   end
 end
